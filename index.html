@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>World Anvil — Guide de Prise en Main</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700;900&family=Crimson+Pro:ital,wght@0,300;0,400;0,600;1,300;1,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="hero">
+  <div class="hero-badge">Guide pour Peniel</div>
+  <h1>Construire un Monde<br>avec <span>World Anvil</span></h1>
+  <p class="hero-sub">Principalement pour le plan gratuit (Freeman)</p>
+  <div class="hero-meta">
+    <span class="hero-tag">Worldbuilding</span>
+    <span class="hero-tag">Romans · Mangas · Fanfictions</span>
+    <span class="hero-tag">Plan <strong>FREE</strong></span>
+    <span class="hero-tag">Je pense qu'il faut au moins 30 min pour démarrer</span>
+  </div>
+</header>
+
+<div class="warn-banner">
+  ⚠️ Le Plan gratuit implique que ton monde est <strong>entièrement public</strong> · Pas de confidentialité · 42 articles max · 100 MB de stockage
+</div>
+
+<nav class="toc-nav">
+  <ul>
+    <li><a href="#intro">C'est quoi ?</a></li>
+    <li><a href="#limites">Limites du free</a></li>
+    <li><a href="#creation">Créer son compte</a></li>
+    <li><a href="#monde">Créer son monde</a></li>
+    <li><a href="#articles">Écrire des articles</a></li>
+    <li><a href="#structure">Structurer</a></li>
+    <li><a href="#maps">Cartes</a></li>
+    <li><a href="#strategie">Stratégie 42 articles</a></li>
+  </ul>
+</nav>
+
+<div class="container">
+
+  <!-- SECTION 0 : INTRO -->
+  <div id="intro" class="section anchor">
+    <div class="section-header">
+      <span class="section-number">00</span>
+      <h2>World Anvil — C'est quoi exactement ?</h2>
+      <span class="icon">🌐</span>
+    </div>
+    <div class="section-body">
+      <p>World Anvil, c'est une plateforme web de <strong>worldbuilding</strong> : un endroit centralisé pour construire, documenter et organiser l'univers de tes histoires. C'est comme un wiki, mais totalemment dédié à ton monde fictif — avec des cartes interactives, des fiches de personnages, des timelines historiques, et des liens entre tous les éléments.</p>
+      <p>C'est utilisé par des auteurs de romans de fantasy, des créateurs de mangas, des maîtres de jeu RPG, et des fans qui construisent des fanfictions avec leurs propres univers dérivés.</p>
+
+      <div class="article-grid">
+        <div class="article-type">
+          <div class="at-icon">📜</div>
+          <h4>Wiki structuré</h4>
+          <p>Fiches pour chaque lieu, personnage, événement, créature...</p>
+        </div>
+        <div class="article-type">
+          <div class="at-icon">🗺️</div>
+          <h4>Cartes interactives</h4>
+          <p>Cartes cliquables avec des marqueurs liés à tes articles</p>
+        </div>
+        <div class="article-type">
+          <div class="at-icon">📅</div>
+          <h4>Timelines</h4>
+          <p>Chronologie des événements de ton univers</p>
+        </div>
+        <div class="article-type">
+          <div class="at-icon">🔗</div>
+          <h4>Autolinker</h4>
+          <p>Liens automatiques entre tes articles — disponible en free</p>
+        </div>
+        <div class="article-type">
+          <div class="at-icon">👥</div>
+          <h4>Communauté</h4>
+          <p>+1,5M de worldbuilders, défis, concours annuels</p>
+        </div>
+        <div class="article-type">
+          <div class="at-icon">✍️</div>
+          <h4>Manuscrits</h4>
+          <p>Logiciel d'écriture intégré — mais dans la version payante seulement</p>
+        </div>
+      </div>
+
+      <div class="callout callout-info">
+        <p>World Anvil n'est disponible qu'en version web (sur le site, en ligne), sans application desktop, ou mobile, ni mode hors-ligne. Une connexion internet stable est nécessaire pour travailler.</p>
+        <p>Comme google docs mais sans le mode hors-connexion</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- SECTION 1 : LIMITES -->
+  <div id="limites" class="section anchor">
+    <div class="section-header">
+      <span class="section-number">01</span>
+      <h2>Ce que le plan gratuit (Freeman) permet — et ne permet pas, aussi</h2>
+      <span class="icon">⚖️</span>
+    </div>
+    <div class="section-body">
+      <p>Avant de commencer, il faut savoir ce que le plan gratuit permet.</p>
+        <p>Il vaut le coup pour démarrer et explorer, mais il a des limites strictes à connaître.</p>
+
+      <div class="limits-grid">
+        <div class="limit-card">
+          <p class="label">Articles</p>
+          <p class="value bad">42 max.</p>
+          <p class="desc">Tous les types confondus (lieux, personnages, etc.)</p>
+        </div>
+        <div class="limit-card">
+          <p class="label">Mondes</p>
+          <p class="value">2 max</p>
+          <p class="desc">Tu peux gérer deux univers separés / distincts</p>
+        </div>
+        <div class="limit-card">
+          <p class="label">Stockage des images</p>
+          <p class="value bad">100 MB</p>
+          <p class="desc">Taille max par image : 10 MB</p>
+        </div>
+        <div class="limit-card">
+          <p class="label">Marqueurs sur carte</p>
+          <p class="value bad">10 max</p>
+          <p class="desc">Par carte interactive</p>
+        </div>
+        <div class="limit-card">
+          <p class="label">Confidentialité</p>
+          <p class="value bad">Aucune</p>
+          <p class="desc">Tout est public et indexable</p>
+        </div>
+        <div class="limit-card">
+          <p class="label">Objectif de mots</p>
+          <p class="value">10 000 mots</p>
+          <p class="desc">Objectif de suivi (on peut écrire plus)</p>
+        </div>
+      </div>
+
+      <div class="divider">Ce qui est inclus gratuitement</div>
+
+      <ul class="checklist">
+        <li>Création d'articles avec des templates structurés (lieu, personnage, événement, races, guildes, magie et pouvoirs, etc.)</li>
+        <li>Autolinker — liens automatiques entre differents articles</li>
+        <li>Recherche avancée dans tes differents articles</li>
+        <li>Cartes interactives (avec une limitation à 10 marqueurs)</li>
+        <li>Timelines historiques</li>
+        <li>Page d'accueil de monde personnalisable</li>
+        <li>Surlignage coloré (Color Tags)</li>
+        <li>Accès à la communauté et aux concours</li>
+        <li>Export de tes données (tu restes propriétaire de ton contenu)</li>
+      </ul>
+
+      <div class="callout callout-warn">
+        <p>Ton monde est visible par tout le monde sur internet. Si ton histoire est un projet que tu veux publier un jour et garder confidentiel, le plan payant (à partir de ~58$/an) sera nécessaire pour activer la confidentialité.</p>
+      </div>
+
+      <div class="callout callout-tip">
+        <p>Les pop-ups publicitaires pour upgrader apparaissent régulièrement, y compris pendant l'écriture. C'est un inconvénient documenté du plan free — prévois-toi de la patience !</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- SECTION 2 : CRÉATION DE COMPTE -->
+  <div id="creation" class="section anchor">
+    <div class="section-header">
+      <span class="section-number">02</span>
+      <h2>Créer son compte — Étape par étape</h2>
+      <span class="icon">🔐</span>
+    </div>
+    <div class="section-body">
+      <div class="steps">
+        <div class="step">
+          <div class="step-num"></div>
+          <div class="step-content">
+            <h3>Aller sur worldanvil.com</h3>
+            <p>Ouvre le navigateur et rends-toi sur <a href="https://www.worldanvil.com" target="_blank">worldanvil.com</a>. Clique sur le bouton <strong>"Register"</strong> en haut à droite.</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-num"></div>
+          <div class="step-content">
+            <h3>Remplir le formulaire d'inscription</h3>
+            <p>Entre ton adresse email, choisis un <strong>nom d'utilisateur</strong> (il sera visible publiquement — choisis quelque chose qui te représente) et un mot de passe. Confirme ton email via le lien reçu dans ta boîte.</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-num"></div>
+          <div class="step-content">
+            <h3>Choisir le plan Freeman</h3>
+            <p>Lors de l'inscription, World Anvil te proposera des plans payants. Sélectionne simplement <strong>"Freeman"</strong> (le plan gratuit) — il n'y a pas de carte bancaire à renseigner.</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-num"></div>
+          <div class="step-content">
+            <h3>Découvrir le tableau de bord</h3>
+            <p>Une fois connecté(e), tu arrives sur ton <strong>Dashboard</strong>. À gauche, la barre de navigation principale. En haut, les accès rapides. Prends deux minutes pour regarder sans cliquer nulle part — l'interface est dense mais logique.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="callout callout-tip">
+        World Anvil est entièrement en anglais. Si tu maîtrises les bases (location, character, event, article...), tu t'en sortiras. La communauté francophone existe mais reste minoritaire sur la plateforme.
+      </div>
+    </div>
+  </div>
+
+  <!-- SECTION 3 : CRÉER SON MONDE -->
+  <div id="monde" class="section anchor">
+    <div class="section-header">
+      <span class="section-number">03</span>
+      <h2>Créer son premier monde</h2>
+      <span class="icon">🌍</span>
+    </div>
+    <div class="section-body">
+      <p>Le <strong>Monde</strong> est le conteneur principal — tout ce que tu crées (articles, cartes, timelines) appartient à un monde. Commence par en créer un seul et bien le configurer.</p>
+
+      <div class="steps">
+        <div class="step">
+          <div class="step-num"></div>
+          <div class="step-content">
+            <h3>Cliquer sur "Create World"</h3>
+            <p>Depuis le Dashboard, cherche le bouton <strong>"Create World"</strong> ou <strong>"New World"</strong>. Il est souvent visible directement depuis la page d'accueil après connexion.</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-num"></div>
+          <div class="step-content">
+            <h3>Remplir les informations de base</h3>
+            <p><strong>World Name</strong> : le titre de ton univers.<br>
+            <strong>Slug</strong> : l'URL de ton monde (ex: <code>mon-monde-de-glace</code>) — minuscules, tirets, sans espaces.<br>
+            <strong>Genre</strong> : Fantasy, Sci-Fi, Horror... Choisis ce qui correspond le mieux.</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-num"></div>
+          <div class="step-content">
+            <h3>Écrire un "Elevator Pitch"</h3>
+            <p>C'est le champ <strong>Pitch</strong> : une ou deux phrases qui résument ton univers. Exemple : <em>"Un empire elfique en déclin face à une révolution golem-industrielle, raconté à travers les yeux d'une ingénieure proscrite."</em> Ça peut rester vague au début.</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-num"></div>
+          <div class="step-content">
+            <h3>Configurer la page d'accueil</h3>
+            <p>Après création, tu arrives sur la page de ton monde. La section <strong>Homepage</strong> est ce que les visiteurs voient en premier. Tu peux y ajouter une image de couverture, une description, et des liens vers tes articles principaux. Laisse-la simple pour l'instant.</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-num"></div>
+          <div class="step-content">
+            <h3>Explorer le World Dashboard</h3>
+            <p>Depuis ton monde, tu as accès à : <strong>Articles</strong> (toute ta documentation), <strong>Maps</strong>, <strong>Timelines</strong>, <strong>Categories</strong> (pour organiser les articles), et les <strong>Stats</strong>. La barre latérale gauche est ton outil principal de navigation.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="callout callout-info">
+        Les catégories (<strong>Categories</strong>) sont aussi soumises à la limite du plan free. Évite d'en créer trop d'un coup — planifie plutôt ta structure à l'avance.
+      </div>
+    </div>
+  </div>
+
+  <!-- SECTION 4 : ÉCRIRE DES ARTICLES -->
+  <div id="articles" class="section anchor">
+    <div class="section-header">
+      <span class="section-number">04</span>
+      <h2>Créer et rédiger des articles</h2>
+      <span class="icon">📜</span>
+    </div>
+    <div class="section-body">
+      <p>Les <strong>articles</strong> sont le cœur de World Anvil. Chaque élément de ton univers (un lieu, un personnage, une magie, une bataille...) devient un article. World Anvil propose des <strong>templates</strong> adaptés à chaque type de contenu, avec des champs pré-remplis pour guider l'écriture.</p>
+
+      <div class="divider">Types d'articles disponibles en free</div>
+
+      <div class="article-grid">
+        <div class="article-type">
+          <div class="at-icon">🏙️</div>
+          <h4>Location</h4>
+          <p>Pays, ville, donjon, planète, dimension...</p>
+        </div>
+        <div class="article-type">
+          <div class="at-icon">👤</div>
+          <h4>Character</h4>
+          <p>Personnages principaux, secondaires, historiques</p>
+        </div>
+        <div class="article-type">
+          <div class="at-icon">⚔️</div>
+          <h4>Military Conflict</h4>
+          <p>Guerres, batailles, escarmouches</p>
+        </div>
+        <div class="article-type">
+          <div class="at-icon">🏛️</div>
+          <h4>Organization</h4>
+          <p>Guildes, empires, religions, factions</p>
+        </div>
+        <div class="article-type">
+          <div class="at-icon">✨</div>
+          <h4>Technology / Magic</h4>
+          <p>Systèmes de magie, technologies, sciences fictives</p>
+        </div>
+        <div class="article-type">
+          <div class="at-icon">📖</div>
+          <h4>Myth / Legend</h4>
+          <p>Mythes fondateurs, prophéties, légendes</p>
+        </div>
+        <div class="article-type">
+          <div class="at-icon">🌿</div>
+          <h4>Species</h4>
+          <p>Races, créatures, espèces fantastiques</p>
+        </div>
+        <div class="article-type">
+          <div class="at-icon">📅</div>
+          <h4>Historical Event</h4>
+          <p>Événements qui ont façonné ton monde</p>
+        </div>
+        <div class="article-type">
+          <div class="at-icon">🎭</div>
+          <h4>Prose / Generic</h4>
+          <p>Article libre — pour tout ce qui ne rentre pas ailleurs</p>
+        </div>
+      </div>
+
+      <div class="divider">Comment créer un article</div>
+
+      <div class="steps">
+        <div class="step">
+          <div class="step-num"></div>
+          <div class="step-content">
+            <h3>Cliquer sur "New Article" dans ton monde</h3>
+            <p>Dans le menu de ton monde, clique sur <strong>"Articles"</strong> puis <strong>"New Article"</strong>. Une liste de templates s'affiche — choisis celui qui correspond à ce que tu veux créer.</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-num"></div>
+          <div class="step-content">
+            <h3>Remplir les champs du template</h3>
+            <p>Chaque template a des sections prédéfinies. Par exemple, un article <strong>Character</strong> aura des champs pour la biographie, les motivations, les relations, l'apparence... Tu n'es pas obligé(e) de tout remplir d'un coup — sauvegarde régulièrement.</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-num"></div>
+          <div class="step-content">
+            <h3>Utiliser le BBcode pour la mise en forme</h3>
+            <p>World Anvil utilise un système de mise en forme appelé <strong>BBcode</strong> (similaire aux forums). </p>
+            <p>(Sorry si ça ressemble à du code)</p>
+            <p>Voici les balises essentielles (les mots clés et la synthaxe):</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="code-block">
+        <pre><span class="comment">-- Mise en forme de base --</span>
+<span class="tag">[b]</span><span class="value">Texte en gras</span><span class="tag">[/b]</span>
+<span class="tag">[i]</span><span class="value">Texte en italique</span><span class="tag">[/i]</span>
+<span class="tag">[u]</span><span class="value">Texte souligné</span><span class="tag">[/u]</span>
+<span class="tag">[h1]</span><span class="value">Grand titre</span><span class="tag">[/h1]</span>
+<span class="tag">[h2]</span><span class="value">Sous-titre</span><span class="tag">[/h2]</span>
+
+<span class="comment">-- Lien vers un autre article (Autolinker) --</span>
+<span class="tag">@[</span><span class="value">Nom du personnage</span><span class="tag">]</span>   <span class="comment">← lien automatique</span>
+
+<span class="comment">-- Bloc de citation (pour les épigraphes) --</span>
+<span class="tag">[quote]</span><span class="value">Texte de la citation</span><span class="tag">[/quote]</span>
+
+<span class="comment">-- Alerte ou encadré --</span>
+<span class="tag">[container:highlight]</span><span class="value">Contenu mis en avant</span><span class="tag">[/container]</span></pre>
+      </div>
+
+      <div class="callout callout-tip">
+        L'<strong>Autolinker</strong> est une des meilleures fonctions disponibles en free. Quand tu tapes <code>@[Nom]</code> dans n'importe quel article, il crée automatiquement un lien vers l'article correspondant. Utilise-le partout — c'est ce qui rend ton wiki vraiment interconnecté.
+      </div>
+
+      <div class="steps">
+        <div class="step">
+          <div class="step-num"></div>
+          <div class="step-content">
+            <h3>Ajouter une image de couverture</h3>
+            <p>Chaque article peut avoir une image principale. Clique sur la zone d'image en haut de l'article. Formats acceptés : JPG, PNG, WEBP. Taille max : 10 MB. Rappel : tu n'as que 100 MB au total — utilise des images légères (compresse-les sur <a href="https://squoosh.app" target="_blank">squoosh.app</a> gratuitement avant upload).</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-num"></div>
+          <div class="step-content">
+            <h3>Publier l'article</h3>
+            <p>En haut de l'article, il y a un toggle <strong>Published / Draft</strong>. En plan free, tout article publié est visible publiquement. Tu peux garder un article en <strong>Draft</strong> (brouillon) pour travailler dessus sans le montrer — mais il compte quand même dans tes 42 articles.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SECTION 5 : STRUCTURER -->
+  <div id="structure" class="section anchor">
+    <div class="section-header">
+      <span class="section-number">05</span>
+      <h2>Organiser son monde avec des catégories</h2>
+      <span class="icon">🗂️</span>
+    </div>
+    <div class="section-body">
+      <p>Avec 42 articles au maximum, <strong>l'organisation est essentielle</strong> (je pense). Les <strong>Categories</strong> sont des dossiers thématiques pour regrouper tes articles. Par exemples les "Personnages principaux", "Lieux du Nord", "Système de magie", "guildes", etc.</p>
+
+      <div class="steps">
+        <div class="step">
+          <div class="step-num"></div>
+          <div class="step-content">
+            <h3>Créer des catégories</h3>
+            <p>Dans le menu de ton monde, va dans <strong>Categories</strong> → <strong>New Category</strong>. Donne-lui un nom clair et une couleur si tu veux. Tu peux créer des sous-catégories aussi, pour hiérarchiser par exemple.</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-num"></div>
+          <div class="step-content">
+            <h3>Assigner des articles à une catégorie</h3>
+            <p>Quand tu crées ou édites un article, il y a un champ <strong>"Category"</strong> dans la barre latérale droite. Sélectionne la catégorie correspondante. Un article peut appartenir à une seule catégorie principale.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="strategy">
+        <h3>🏗️ Structure recommandée pour débuter</h3>
+        <p>Avec 42 articles, voici une répartition suggérée pour un roman/manga fantasy :</p>
+        <ul class="checklist">
+          <li><strong>Lieux (8–10 articles)</strong> : Le monde global, les grandes régions, les villes importantes</li>
+          <li><strong>Personnages (8–10 articles)</strong> : Protagonistes, antagonistes, personnages pivots</li>
+          <li><strong>Factions & Organisations (5–6 articles)</strong> : Empires, guildes, ordres religieux</li>
+          <li><strong>Systèmes (4–5 articles)</strong> : Magie, technologie, économie</li>
+          <li><strong>Races & Espèces (3–4 articles)</strong> : Si ton univers en a</li>
+          <li><strong>Histoire & Événements (4–5 articles)</strong> : Les grands événements fondateurs</li>
+          <li><strong>Divers / Cultures (5–8 articles)</strong> : Religions, langues, coutumes, artefacts</li>
+        </ul>
+      </div>
+
+      <div class="callout callout-warn">
+        Ne crée pas 42 articles dès le départ. Commence par les 10 éléments les plus importants de ton monde, ceux qui apparaissent dans les premières scènes. Tu ajouteras le reste au fur et à mesure.
+      </div>
+    </div>
+  </div>
+
+  <!-- SECTION 6 : CARTES -->
+  <div id="maps" class="section anchor">
+    <div class="section-header">
+      <span class="section-number">06</span>
+      <h2>Créer une carte interactive</h2>
+      <span class="icon">🗺️</span>
+    </div>
+    <div class="section-body">
+      <p>Les cartes interactives sont l'une des fonctions les plus visuellement impressionnantes de World Anvil. En plan free, tu peux créer des cartes avec jusqu'à <strong>10 marqueurs cliquables</strong>, chacun lié à un article de ton monde.</p>
+
+      <div class="steps">
+        <div class="step">
+          <div class="step-num"></div>
+          <div class="step-content">
+            <h3>Préparer ton image de carte</h3>
+            <p>World Anvil ne crée pas de cartes — il les <em>rend interactives</em>. Tu dois d'abord avoir une image (dessinée à la main, générée, ou trouvée libre de droits). Format recommandé : PNG, au moins 1500px de large. Poids : sous 10 MB.</p>
+            <p>Outils gratuits pour créer une carte : <a href="https://inkarnate.com" target="_blank">Inkarnate</a> (plan free), <a href="https://wonderdraft.net" target="_blank">Wonderdraft</a> (payant mais one-time), ou simplement Canva pour une carte stylisée.</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-num"></div>
+          <div class="step-content">
+            <h3>Créer la carte dans World Anvil</h3>
+            <p>Dans ton monde, clique sur <strong>Maps</strong> → <strong>New Map</strong>. Donne-lui un titre, uploade ton image de fond, et configure les paramètres de base (projection, orientation).</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-num"></div>
+          <div class="step-content">
+            <h3>Ajouter des marqueurs (10 max avec le plan free)</h3>
+            <p>Sur l'éditeur de carte, clique sur l'outil <strong>"Add Marker"</strong> puis clique sur un endroit de la carte. Une popup s'ouvre : tu peux lier le marqueur à un article existant (ex : l'article "Capitale de l'Empire"), choisir une icône, et ajouter une description courte.</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-num"></div>
+          <div class="step-content">
+            <h3>Intégrer la carte dans ta homepage</h3>
+            <p>Une fois la carte sauvegardée, tu peux l'intégrer dans la page d'accueil de ton monde ou dans n'importe quel article via le BBcode : <code>[map:slug-de-ta-carte]</code>. Les visiteurs pourront cliquer sur les marqueurs pour accéder aux articles correspondants.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="callout callout-tip">
+        Utilise tes 10 marqueurs sur les lieux les plus importants pour ton histoire — pas tous les lieux existants. Laisse quelques marqueurs pour des lieux qui seront révélés plus tard dans le récit, pour créer de la curiosité chez tes lecteurs.
+      </div>
+    </div>
+  </div>
+
+  <!-- SECTION 7 : STRATÉGIE 42 ARTICLES -->
+  <div id="strategie" class="section anchor">
+    <div class="section-header">
+      <span class="section-number">07</span>
+      <h2>Stratégie : Bien utiliser ses 42 articles</h2>
+      <span class="icon">♟️</span>
+    </div>
+    <div class="section-body">
+      <p>La vraie contrainte du plan free, c'est la limite à <strong>42 articles</strong>. Ce n'est pas si peu si tu es stratégique. Voici comment maximiser chaque article.</p>
+
+      <div class="strategy">
+        <h3>🎯 Règle d'or : un article = un élément pivot</h3>
+        <p>Ne crée pas un article pour chaque détail. Crée un article pour chaque élément qui <strong>apparaît dans ton récit</strong> ou qui <strong>influence directement la trame</strong>. Les détails de remplissage restent dans les articles principaux comme sections, tu vois ?</p>
+      </div>
+
+      <div class="steps">
+        <div class="step">
+          <div class="step-num"></div>
+          <div class="step-content">
+            <h3>Consolider les petits éléments</h3>
+            <p>Plutôt que de créer un article par ville d'une région, crée un article <strong>"Région du Nord"</strong>, <strong>"Duché de Selenfereihn"</strong> ou comme tu veux.</p>
+            <p>Et aussi décris toutes les villes de la région dedans en sections. Tu économises 5 ou 6 articles, en gardant l'information accessible.</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-num"></div>
+          <div class="step-content">
+            <h3>Supprimer pour libérer de l'espace</h3>
+            <p>Si tu atteins la limite, tu peux <strong>supprimer</strong> des articles pour en créer de nouveaux. World Anvil permet aussi d'<strong>exporter</strong> ton contenu (menu Account Settings → Export). Exporte régulièrement vers un fichier texte ou Google Doc pour archiver les éléments supprimés.</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-num"></div>
+          <div class="step-content">
+            <h3>Utiliser les articles "Generic" comme notebooks</h3>
+            <p>Le type d'article <strong>Prose / Generic</strong> est libre de format. Tu peux en utiliser quelques-uns comme des notes de travail : un article "Idées en vrac", un "Glossaire général", un "Chronologie simplifiée". C'est moins structuré mais ça libère de l'espace pour les vrais articles de monde.</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-num"></div>
+          <div class="step-content">
+            <h3>Participer au WorldEmber (décembre)</h3>
+            <p>Le <strong>WorldEmber</strong> est un défi annuel en décembre où la communauté écrit 10 000 mots de worldbuilding en un mois. C'est un excellent moyen de peupler rapidement ton monde, de recevoir des feedbacks, et parfois de gagner des récompenses qui incluent des bonus de plan.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="callout callout-info">
+        <p>Si un jour tu veux passer au plan payant, <strong>Journeyman (~58$/an)</strong> déverrouille les articles illimités et la confidentialité. </p>
+        <p>C'est le premier vrai saut qualitatif pour un auteur sérieux.</p>
+        <p>Mais bon, c'est toi qui voit (perso, je trouve ça trop, mais bon...)</p>
+      </div>
+
+      <div class="divider">
+        <p>Du coup, pour recap</p>
+      </div>
+
+      <ul class="checklist">
+        <li>✅ Crée ton compte gratuit sur worldanvil.com</li>
+        <li>✅ Lance ton premier monde avec un pitch clair</li>
+        <li>✅ Planifie ta structure de catégories <em>avant</em> de créer des articles</li>
+        <li>✅ Commence par les 10 éléments les plus essentiels au récit</li>
+        <li>✅ Utilise l'Autolinker (<code>@[Nom]</code>) pour interconnecter tes articles</li>
+        <li>✅ Prépare une image de carte, même simple, et ajoute les 10 marqueurs stratégiques</li>
+        <li>✅ Exporte régulièrement ton contenu pour ne rien perdre</li>
+        <li>✅ Garde un article "Brouillons" pour noter les idées en attente</li>
+      </ul>
+    </div>
+    
+    <p style="margin:8px; text-align: justify">Aussi, par rapport à <strong>vvd.world</strong>(l'autre site dont je t'ai parlé), il semble ne pas etre accesible sur mobile. Juste sur tablette ou pc. Et aussi, il ne supporte pas les petits écrans (et mon pc est dead pour le moment, sorry)</p>
+    
+    <p style="margin:8px; text-align: justify">Desolé aussi pour le manque de visuels et si c'est long et verbeux. Si (ou plutot quand) je finirai un premier monde et que j'en serais satisfait je mettrais à jour, promis.</p>
+    
+  </div>
+  
+  
+
+</div>
+
+<footer>
+  <p>Guide rédigé pour <strong>Peniel BEINA</strong></p>
+  <p>Presentant<strong>World Anvil</strong> </p>
+  <p>Plan Freeman · 2025–2026</p>
+  <p style="margin-top:8px; color:#6b5f52; font-size:12px;">Toutes les limites du plan gratuit sont susceptibles d'évoluer selon les décisions de la plateforme.</p>
+  <p>copyright 2026 - Daniel Herman RAMAZANI</p>
+</footer>
+
+</body>
+</html>
